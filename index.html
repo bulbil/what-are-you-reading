@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>What Have You Been Reading?</title>
+    <title>So What Are You Reading?</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,137 +31,203 @@
     <div class="container starter-template">
 
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          
+        <div class="col-md-8 col-md-offset-2 col-lg-12 col-lg-offset-1">
+
           <!-- start goodreads widget -->
 
 
-              <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-            <style type="text/css" media="screen">
-/*        .gr_custom_container_1446693859 {
-          /* customize your Goodreads widget container here*/
-          border: 2px solid gray;
-          border-radius:10px;
-          padding: 10px 5px 10px 5px;
-          background-color: transparent;
-          color: #000000;
-          
-        }
-*/        .gr_custom_header_1446693859 {
-          /* customize your Goodreads header here*/
-          border-bottom: 1px solid gray;
-          width: 100%;
-          margin-bottom: 5px;
-          text-align: center;
-          font-size: 150%
-        }
-/*        .gr_custom_each_container_1446693859 {
-          /* customize each individual book container here */
-          width: 100%;
-          clear: both;
-          margin-bottom: 10px;
-          overflow: auto;
-          padding-bottom: 4px;
-          border-bottom: 1px solid #aaa;
-        }
-*/        .gr_custom_book_container_1446693859 {
-          /* customize your book covers here */
-          overflow: hidden;
-          height: 160px;
-            float: left;
-            margin-right: 4px;
-            width: 98px;
-        }
-        .gr_custom_author_1446693859 {
-          /* customize your author names here */
-          font-size: 10px;
-        }
-        .gr_custom_tags_1446693859 {
-          /* customize your tags here */
-          font-size: 10px;
-          color: gray;
-        }
-        .gr_custom_rating_1446693859 {
-          /* customize your rating stars here */
-          float: right;
-        }
-      </style>
+       <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+      <style type="text/css" media="screen">
+  /*.gr_custom_container_1446746064 {
+    /* customize your Goodreads widget container here*/
+    border: 2px solid gray;
+    border-radius:10px;
+    padding: 10px 5px 10px 5px;
+    background-color: transparent;
+    color: #000000;
 
- <!--            <div id="gr_custom_widget_1446693859">
-                <div class="gr_custom_container_1446693859">
-          <h2 class="gr_custom_header_1446693859">
-          <a style="text-decoration: none;" href="https://www.goodreads.com/review/list/48612302-nabil?shelf=what-have-you-been-reading&amp;utm_medium=api&amp;utm_source=custom_widget">What Have You Been Reading</a>
-          </h2>
-            <div class="gr_custom_each_container_1446693859">
-                <div class="gr_custom_book_container_1446693859">
-                  <a title="The Argonauts" href="https://www.goodreads.com/review/show/1434050525?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Argonauts" border="0" src="https://d.gr-assets.com/books/1410981835m/22929741.jpg" /></a>
-                </div>
-                <div class="gr_custom_title_1446693859">
-                  <a href="https://www.goodreads.com/review/show/1434050525?utm_medium=api&amp;utm_source=custom_widget">The Argonauts</a>
-                </div>
-                <div class="gr_custom_author_1446693859">
-                  by <a href="https://www.goodreads.com/author/show/58605.Maggie_Nelson">Maggie Nelson</a>
-                </div>
-            </div>
-            <div class="gr_custom_each_container_1446693859">
-                <div class="gr_custom_book_container_1446693859">
-                  <a title="The Complete Stories" href="https://www.goodreads.com/review/show/1434050912?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Complete Stories" border="0" src="https://d.gr-assets.com/books/1413745298m/23365262.jpg" /></a>
-                </div>
-                <div class="gr_custom_title_1446693859">
-                  <a href="https://www.goodreads.com/review/show/1434050912?utm_medium=api&amp;utm_source=custom_widget">The Complete Stories</a>
-                </div>
-                <div class="gr_custom_author_1446693859">
-                  by <a href="https://www.goodreads.com/author/show/86098.Clarice_Lispector">Clarice Lispector</a>
-                </div>
-            </div>
-            <div class="gr_custom_each_container_1446693859">
-                <div class="gr_custom_book_container_1446693859">
-                  <a title="Can't and Won't: Stories" href="https://www.goodreads.com/review/show/1434051162?utm_medium=api&amp;utm_source=custom_widget"><img alt="Can't and Won't: Stories" border="0" src="https://d.gr-assets.com/books/1391348924m/17934642.jpg" /></a>
-                </div>
-                <div class="gr_custom_title_1446693859">
-                  <a href="https://www.goodreads.com/review/show/1434051162?utm_medium=api&amp;utm_source=custom_widget">Can't and Won't: Stories</a>
-                </div>
-                <div class="gr_custom_author_1446693859">
-                  by <a href="https://www.goodreads.com/author/show/27427.Lydia_Davis">Lydia Davis</a>
-                </div>
-            </div>
-            <div class="gr_custom_each_container_1446693859">
-                <div class="gr_custom_book_container_1446693859">
-                  <a title="Dhalgren" href="https://www.goodreads.com/review/show/1434076324?utm_medium=api&amp;utm_source=custom_widget"><img alt="Dhalgren" border="0" src="https://d.gr-assets.com/books/1320531180m/85867.jpg" /></a>
-                </div>
-                <div class="gr_custom_title_1446693859">
-                  <a href="https://www.goodreads.com/review/show/1434076324?utm_medium=api&amp;utm_source=custom_widget">Dhalgren</a>
-                </div>
-                <div class="gr_custom_author_1446693859">
-                  by <a href="https://www.goodreads.com/author/show/49111.Samuel_R_Delany">Samuel R. Delany</a>
-                </div>
-            </div>
-            <div class="gr_custom_each_container_1446693859">
-                <div class="gr_custom_book_container_1446693859">
-                  <a title="My Brilliant Friend (Neapolitan Novels, #1)" href="https://www.goodreads.com/review/show/1434076531?utm_medium=api&amp;utm_source=custom_widget"><img alt="My Brilliant Friend" border="0" src="https://d.gr-assets.com/books/1343064947m/13586707.jpg" /></a>
-                </div>
-                <div class="gr_custom_title_1446693859">
-                  <a href="https://www.goodreads.com/review/show/1434076531?utm_medium=api&amp;utm_source=custom_widget">My Brilliant Friend</a>
-                </div>
-                <div class="gr_custom_author_1446693859">
-                  by <a href="https://www.goodreads.com/author/show/44085.Elena_Ferrante">Elena Ferrante</a>
-                </div>
-            </div>
-        <br style="clear: both"/>
-        <center>
-          <a href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
-        </center>
-        <noscript>
-          Share <a href="https://www.goodreads.com/">book reviews</a> and ratings with Nabil, and even join a <a href="https://www.goodreads.com/group">book club</a> on Goodreads.
-        </noscript>
-        </div> -->
+  }*/
+  .gr_custom_header_1446746064 {
+    /* customize your Goodreads header here*/
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 300%
+  }
+/*  .gr_custom_each_container_1446746064 {
+    /* customize each individual book container here */
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #aaa;
+  }*/
+  .gr_custom_book_container_1446746064 {
+    /* customize your book covers here */
+    overflow: hidden;
+    height: 160px;
+      float: left;
+      margin-right: 4px;
+      width: 98px;
+  }
+  .gr_custom_author_1446746064 {
+    /* customize your author names here */
+    font-size: 10px;
+  }
+  .gr_custom_tags_1446746064 {
+    /* customize your tags here */
+    font-size: 10px;
+    color: gray;
+  }
+  .gr_custom_rating_1446746064 {
+    /* customize your rating stars here */
+    float: right;
+  }
+</style>
 
-            </div>
-            <script src="https://www.goodreads.com/review/custom_widget/48612302.What%20Have%20You%20Been%20Reading?cover_position=left&cover_size=medium&num_books=100&order=a&shelf=what-have-you-been-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=votes&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=2&widget_id=1446693859&widget_text_color=000000&widget_title_size=large&widget_width=full" type="text/javascript" charset="utf-8"></script>
+      <div id="gr_custom_widget_1446746064">
+          <div class="gr_custom_container_1446746064">
+    <h2 class="gr_custom_header_1446746064">
+    <a style="text-decoration: none;" href="https://www.goodreads.com/review/list/45551478-swarthmore-libraries?shelf=so-what-are-you-reading&amp;utm_medium=api&amp;utm_source=custom_widget">So What Are You Reading?</a>
+    </h2>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="The Argonauts" href="https://www.goodreads.com/review/show/1434568777?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Argonauts" border="0" src="https://d.gr-assets.com/books/1410981835m/22929741.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434568777?utm_medium=api&amp;utm_source=custom_widget">The Argonauts</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/58605.Maggie_Nelson">Maggie Nelson</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity" href="https://www.goodreads.com/review/show/1434568920?utm_medium=api&amp;utm_source=custom_widget"><img alt="Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity" border="0" src="https://d.gr-assets.com/books/1315601232m/11869272.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434568920?utm_medium=api&amp;utm_source=custom_widget">Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/4992939.Katherine_Boo">Katherine Boo</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="Can't and Won't: Stories" href="https://www.goodreads.com/review/show/1434568509?utm_medium=api&amp;utm_source=custom_widget"><img alt="Can't and Won't: Stories" border="0" src="https://d.gr-assets.com/books/1391348924m/17934642.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434568509?utm_medium=api&amp;utm_source=custom_widget">Can't and Won't: Stories</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/27427.Lydia_Davis">Lydia Davis</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="The Complete Stories" href="https://www.goodreads.com/review/show/1434566176?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Complete Stories" border="0" src="https://d.gr-assets.com/books/1413745298m/23365262.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434566176?utm_medium=api&amp;utm_source=custom_widget">The Complete Stories</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/86098.Clarice_Lispector">Clarice Lispector</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="Dhalgren" href="https://www.goodreads.com/review/show/1434568088?utm_medium=api&amp;utm_source=custom_widget"><img alt="Dhalgren" border="0" src="https://d.gr-assets.com/books/1320531180m/85867.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434568088?utm_medium=api&amp;utm_source=custom_widget">Dhalgren</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/49111.Samuel_R_Delany">Samuel R. Delany</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="ECODEVIANCE: (Soma)tics for the Future Wilderness" href="https://www.goodreads.com/review/show/1434568315?utm_medium=api&amp;utm_source=custom_widget"><img alt="ECODEVIANCE: (Soma)tics for the Future Wilderness" border="0" src="https://d.gr-assets.com/books/1398195135m/20702490.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434568315?utm_medium=api&amp;utm_source=custom_widget">ECODEVIANCE: (Soma)tics for the Future Wilderness</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/634835.CA_Conrad">CA Conrad</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="The Faraway Nearby" href="https://www.goodreads.com/review/show/1434566403?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Faraway Nearby" border="0" src="https://d.gr-assets.com/books/1356092274m/16158561.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434566403?utm_medium=api&amp;utm_source=custom_widget">The Faraway Nearby</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/15811.Rebecca_Solnit">Rebecca Solnit</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="The Incal" href="https://www.goodreads.com/review/show/1434566548?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Incal" border="0" src="https://d.gr-assets.com/books/1328039960m/10842223.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434566548?utm_medium=api&amp;utm_source=custom_widget">The Incal</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/31779.Alejandro_Jodorowsky">Alejandro Jodorowsky</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="My Brilliant Friend (Neapolitan Novels, #1)" href="https://www.goodreads.com/review/show/1434566860?utm_medium=api&amp;utm_source=custom_widget"><img alt="My Brilliant Friend" border="0" src="https://d.gr-assets.com/books/1343064947m/13586707.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434566860?utm_medium=api&amp;utm_source=custom_widget">My Brilliant Friend</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/44085.Elena_Ferrante">Elena Ferrante</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="Ready Player One" href="https://www.goodreads.com/review/show/1434566703?utm_medium=api&amp;utm_source=custom_widget"><img alt="Ready Player One" border="0" src="https://d.gr-assets.com/books/1406383612m/9969571.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434566703?utm_medium=api&amp;utm_source=custom_widget">Ready Player One</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/31712.Ernest_Cline">Ernest Cline</a>
+          </div>
+      </div>
+      <div class="gr_custom_each_container_1446746064">
+          <div class="gr_custom_book_container_1446746064">
+            <a title="The University of Pennsylvania" href="https://www.goodreads.com/review/show/1434567071?utm_medium=api&amp;utm_source=custom_widget"><img alt="The University of Pennsylvania" border="0" src="https://d.gr-assets.com/books/1415149400m/23501232.jpg" /></a>
+          </div>
+          <div class="gr_custom_title_1446746064">
+            <a href="https://www.goodreads.com/review/show/1434567071?utm_medium=api&amp;utm_source=custom_widget">The University of Pennsylvania</a>
+          </div>
+          <div class="gr_custom_author_1446746064">
+            by <a href="https://www.goodreads.com/author/show/3856574.Caren_Beilin">Caren Beilin</a>
+          </div>
+      </div>
+  <br style="clear: both"/>
+  <center>
+    <a href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
+  </center>
+  <noscript>
+    Share <a href="https://www.goodreads.com/">book reviews</a> and ratings with Swarthmore, and even join a <a href="https://www.goodreads.com/group">book club</a> on Goodreads.
+  </noscript>
+  </div>
+
+      </div>
+      <script src="https://www.goodreads.com/review/custom_widget/45551478.So%20What%20Are%20You%20Reading%3F?cover_position=left&cover_size=medium&num_books=100&order=a&shelf=so-what-are-you-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=title&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=2&widget_id=1446746064&widget_text_color=000000&widget_title_size=large&widget_width=full" type="text/javascript" charset="utf-8"></script>
 
 
           <!-- end goodreads widget -->
-    
+
         </div><!-- /.container -->
 
         </div>

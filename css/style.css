@@ -1,6 +1,6 @@
 body {
   padding-top: 50px;
-  background-image: url("wood-pattern.jpg");
+  background-image: url("light1.jpg");
 }
 
 a, h1, h1, h3, p {
@@ -12,7 +12,7 @@ a, h1, h1, h3, p {
   text-align: center;
 }
 
-.gr_custom_container_1446693859 {
+.gr_custom_container_1446746064 {
     /* customize your Goodreads widget container here*/
     border: 2px solid gray;
     border-radius:10px;
@@ -21,7 +21,7 @@ a, h1, h1, h3, p {
     color: #000000;
 }
 
-.gr_custom_each_container_1446693859 {
+.gr_custom_each_container_1446746064 {
     /* customize each individual book container here */
     width: 30%;
     margin-bottom: 10px;
