@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 body {
-  padding-top: 50px;
-  background-image: url("light1.jpg");
+  padding-top: 10%;
+  /*background-image: url("light1.jpg");*/
+  background-color: #F07575; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+  background-image:    -moz-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+  background-image:      -o-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+  background-image:         linear-gradient(to bottom, hsl(0, 80%, 70%), #bada55);
+
+  background-attachment: fixed;
 }
 
 a, h1, h1, h3, p {
@@ -12,14 +21,47 @@ a, h1, h1, h3, p {
   text-align: center;
 }
 
+
+.navbar {
+  background: rgba(51, 51, 51, 0.5);
+  background: -webkit-linear-gradient(top, rgba(25, 25, 25, .9) 50%, rgba(51, 51, 51, .7) 80%, rgba(51, 51, 51, 0) 100%);
+/*  background: -moz-linear-gradient(#333, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0));
+  background: -o-linear-gradient(#333, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0));
+  background: linear-gradient(#333, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0));
+*/
+  border: none;
+  padding-bottom: 2em;
+}
+
+.navbar-brand {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
 .navbar-brand span {
-  display: inline-block;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Monoton', sans-serif;
+  margin-right: .5em;
+}
+
+.navbar-header p {
+  margin-top: 1em;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: #9d9d9d;
 }
 
 @media (max-width: 590px) {
-.navbar {
-  height: 125px;
-}
+  .navbar {
+    height: 125px;
+  }
+
+  .navbar-brand span { 
+    font-size: 25px;
+  }
 }
 
 .gr_custom_container_1446746064 {
